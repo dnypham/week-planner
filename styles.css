@@ -132,10 +132,22 @@
   text-align: left;
   border: 2px solid black;
   width: 100%;
+  font-size: 12px;
 }
 
-table tr:first-child {
-  border-right: black;
+table,
+th,
+td {
+  border-right: 2px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #c5c5c5;
+}
+
+tr:nth-child(odd) {
+  background-color: #ebebeb;
 }
 
 /* ----------PSEUDO CLASSES---------- */
