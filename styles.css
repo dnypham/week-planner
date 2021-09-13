@@ -20,7 +20,17 @@
   justify-content: space-between;
 }
 
+.button-styling > button {
+  color: black;
+  width: 74px;
+  height: 70px;
+  padding: 0;
+}
+
 .add-entry-styling {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+}
+
+.days-of-week {
+  height: 120px;
 }
