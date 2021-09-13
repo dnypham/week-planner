@@ -16,6 +16,10 @@
   width: 100%;
 }
 
+.column-90 {
+  width: 90%;
+}
+
 .mt15 {
   margin-top: 15px;
 }
@@ -59,6 +63,10 @@
 
 .box-shadow {
   box-shadow: 2px 2px;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 /* ----------POP UP---------- */
@@ -123,8 +131,11 @@
 .table {
   text-align: left;
   border: 2px solid black;
-  width: 800px;
-  height: 300px;
+  width: 100%;
+}
+
+table tr:first-child {
+  border-right: black;
 }
 
 /* ----------PSEUDO CLASSES---------- */
