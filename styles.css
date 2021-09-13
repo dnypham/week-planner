@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
 .container {
+  font-family: 'Klee One', sans-serif;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -21,16 +24,39 @@
 }
 
 .button-styling > button {
+  cursor: pointer;
+  background-color: white;
   color: black;
-  width: 74px;
+  width: 78px;
   height: 70px;
   padding: 0;
+  border: 2px ridge black;
 }
 
 .add-entry-styling {
   text-align: center;
 }
 
+.add-entry-styling > button {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  width: 150px;
+  height: 30px;
+  padding: 0;
+  border: 2px ridge black;
+}
+
 .days-of-week {
   height: 120px;
+}
+
+/* ----------PSEUDO CLASSES---------- */
+
+.button-styling > button:hover {
+  background-color: lightgray;
+}
+
+.add-entry-styling > button:hover {
+  background-color: #97bcee;
 }
