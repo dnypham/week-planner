@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 
+::placeholder {
+  color: black;
+}
+
 /* ----------UTILITY---------- */
 
 .container {
