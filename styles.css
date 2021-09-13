@@ -1,5 +1,5 @@
 .container {
-  max-width: 2400px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -11,6 +11,16 @@
   width: 100%;
 }
 
-.testing {
+.header-styling {
   text-align: center;
+}
+
+.button-styling {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-entry-styling {
+  display: flex;
+  justify-content: center;
 }
