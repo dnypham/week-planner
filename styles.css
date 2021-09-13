@@ -1,12 +1,16 @@
 .container {
-  max-width: 900px;
-  background-color: lightcoral;
+  max-width: 2400px;
+  margin: 0 auto;
 }
 
 .row {
-
+  display: flex;
 }
 
 .column-full {
+  width: 100%;
+}
 
+.testing {
+  text-align: center;
 }
