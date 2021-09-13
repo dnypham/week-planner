@@ -118,6 +118,15 @@
   display: none;
 }
 
+/* ----------TABLE---------- */
+
+.table {
+  text-align: left;
+  border: 2px solid black;
+  width: 800px;
+  height: 300px;
+}
+
 /* ----------PSEUDO CLASSES---------- */
 
 .button-styling > button:hover {
