@@ -51,6 +51,20 @@
   height: 120px;
 }
 
+.text-area-styling {
+  resize: none;
+  width: 100%;
+  height: 80px;
+}
+
+.mt15 {
+  margin-top: 15px;
+}
+
+.submit-button {
+  text-align: end;
+}
+
 /* ----------POP UP---------- */
 
 .pop-up-container {
