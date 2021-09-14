@@ -12,3 +12,22 @@ $form.addEventListener('click', function (event) {
     $popup.classList.add('hidden');
   }
 });
+
+var $daysOfWeek = document.querySelector('.days-of-week');
+var $days = document.querySelectorAll('buttons');
+var $scheduleHeader = document.querySelector('#schedule-header');
+
+$daysOfWeek.addEventListener('click', function (event) {
+  for (var i = 0; i < $days.length; i++) {
+    if ($days[i].textContent === event.target.textContent) {
+      $scheduleHeader.textContent = 'Scheduled Events for Sunday';
+    }
+  }
+})
+
+
+var $table.document.querySelector('.table');
+
+window.addEventListener('DOMContentLoaded', function (event) {
+  $table
+});
