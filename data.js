@@ -1,41 +1,41 @@
 var days = [
   {
-    view: sunday,
+    view: 'sunday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   },
   {
-    view: monday,
+    view: 'monday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   }, {
-    view: tuesday,
+    view: 'tuesday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   },
   {
-    view: wednesday,
+    view: 'wednesday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   },
   {
-    view: thursday,
+    view: 'thursday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   },
   {
-    view: friday,
+    view: 'friday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
   },
   {
-    view: saturday,
+    view: 'saturday',
     entries: [],
     nextEntryId: 1,
     totalEntries: 0
